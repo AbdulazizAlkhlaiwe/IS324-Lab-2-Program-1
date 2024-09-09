@@ -37,31 +37,3 @@ if 48 in costs:
     print("old list:", costs)
 else:
     print("there is no 48")
-
-############# part c
-#costs_list = []
-
-#while True:
-#    cost = float(input("Enter the cost of an item (-1 to stop): "))
-#    if cost == -1:
-#        break
-#    costs_list.append(cost)
-
-#costs_tuple = tuple(costs_list)
-#print("Cost Tuple:", costs_tuple)
-
-#print("Number of elements in the tuple:", len(costs_tuple))
-
-#if costs_tuple:
-#    print("Highest cost in the tuple:", max(costs_tuple))
-
-#    print("Lowest cost in the tuple:", min(costs_tuple))
-
-#    total_costs = sum(costs_tuple)
-#    print("Total of the costs in the tuple:", total_costs)
-
-#    average_cost = total_costs / len(costs_tuple) if costs_tuple else 0
-#    print("Average cost:", average_cost)
-
-
-
